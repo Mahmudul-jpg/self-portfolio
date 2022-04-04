@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import {Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      portfolio
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<navbar/>}/>
+    </Routes>
+    </>
   );
 }
 
